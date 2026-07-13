@@ -11,3 +11,4 @@ class CartListCreateView(ListCreateAPIView):
 class CartDetailView(RetrieveUpdateDestroyAPIView):
     queryset = Cart.objects.all()
     serializer_class = CartSerializer
+    
